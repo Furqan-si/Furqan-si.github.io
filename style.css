@@ -13,6 +13,20 @@ body {
     margin: 0 auto;
 }
 
+.thanks {
+    background-color: #1fff55;
+    background-image: url("https://telegra.ph/file/9da08bf63db80f890c8e1.jpg");
+    background-size:cover;
+    color:blue;
+    text-shadow:2px 2px 2px rgba(0,0,0, 0.5);
+    -webkit-text-stroke: 0.2px black;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 input {
     width: 100%;
     padding: 8px;
@@ -20,8 +34,8 @@ input {
 }
 
 button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #000000;
+    color: #00fa08;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator Luas Segitiga</title>
+    <title>Kalkulator Luas Bangun Datar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <h2>Kalkulator Luas Segitiga </h2>
+        <h2>Kalkulator Luas Segitiga</h2>
         <label for="alas">Panjang Alas:</label>
         <input type="number" id="alas" placeholder="Masukkan panjang alas">
 
@@ -18,6 +18,37 @@
         <button onclick="hitungLuas()">Hitung Luas</button>
 
         <p>Luas Segitiga: <span id="hasilLuas"></span></p>
+        <p><p id="ya"> </p>
+    </div>
+    
+    <div class="calculator">
+        <h2>Kalkulator Luas Persegi Panjang</h2>
+        <label for="panjang">Panjang:</label>
+        <input type="number" id="panjang" placeholder="Masukkan panjangnya">
+
+        <label for="lebar">Lebar:</label>
+        <input type="number" id="lebar" placeholder="Masukkan lebarnya">
+
+        <button onclick="persegi()">Hitung Luas</button>
+
+        <p>Luas Persegi Panjang: <span id="luas"></span></p>
+        <p><p id="fur"> </p>
+    </div>
+    
+    <div class="calculator">
+        <h2>Kalkulator Luas Lingkaran</h2>
+        <label for="jarijari">Jari-jari:</label>
+        <input type="number" id="jarijari" placeholder="Masukkan jari-jarinya">
+
+        <button onclick="lingkaran()">Hitung Luas</button>
+
+        <p>Luas Lingkaran: <span id="luas"></span></p>
+        <p><p id="qan"> </p>
+    </div>
+    
+     <div class="thanks">
+        <h5>Terima kasih telah mampir di website yang sederhana ini, masih terdapat banyak kekurangan di dalam nya karena kami sendiri pun masih dalam tahap belajar, semoga bermanfaat terutama untuk saya sendiri dan semoga kedepannya website ini semakin berkembang.</h5>
+        <h4>السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h4>
     </div>
 
     <script src="script.js"></script>
